@@ -42,4 +42,4 @@ Image id can be seen from docker desktop
 
 ### docker push to docker hub
 1. make sure image is build and the container exists
-2. Push image to docker hub, execute `docker push <image name>:<version><image id>`
+2. Push image to docker hub, execute `docker push <image name>:<version>`

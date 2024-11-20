@@ -22,7 +22,7 @@ COPY .mvn .mvn
 # Package the application using the RUN directive
 # this will download the dependencies defined in pom.xml
 # compile and package to jar
-RUN ./mvnw package -Dmaven.test.skip=true
+RUN chmod a+x ./mvnw && ./mvnw package -Dmaven.test.skip=true
 
 ENV SERVER_PORT=3000
 
