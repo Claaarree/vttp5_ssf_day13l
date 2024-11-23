@@ -13,7 +13,7 @@ Check docker image create in local docker repo <br>
 4. docker image ls <br>
 
 Run the image inside the container <br>
-5. docker run -d -t -p \\<exposed public port>\\:<application server port> <image name> <br>
+5. docker run -d -t -p \<exposed public port \>:<application server port> <image name> <br>
 
 Check docker container running <br>
 6. docker container ls
