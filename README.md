@@ -7,13 +7,13 @@ Clear the docker compilation/build cache<br>
 
 Building the docker image
 3. docker build -t <docker login>/<app name>:<version> . <br>
-docker build -t <claarree>/vttp5-ssf-day13l:v0.0.1 .
+docker build -t claarree/vttp5-ssf-day13l:v0.0.1 .
 
 Check docker image create in local docker repo <br>
 4. docker image ls <br>
 
 Run the image inside the container <br>
-5. docker run -d -t -p <exposed public port>:<application server port> <image name> <br>
+5. docker run -d -t -p \\<exposed public port>\\:<application server port> <image name> <br>
 
 Check docker container running <br>
 6. docker container ls
